@@ -1,6 +1,5 @@
 package com.helixtech;
 
-
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
@@ -29,8 +28,8 @@ public class InstanceInfo {
         System.out.println("START Instance");
         HashMap<String, String> hm = new HashMap<String, String>();
         //add key-value pair to hashmap
-        hm.put("tag:CostControl", "Alis Dev");
-        hm.put("tag:PlatformMode", "Mode 1");
+        hm.put("tag:CostControl", "ASAP");
+        hm.put("tag:PlatformMode", "Level 1");
         hm.put("instance-id", "");
 
         List<Reservation> reservations = new InstanceInfo(args[0], args[1], args[2]).getInstanceByTags(hm);
@@ -61,15 +60,12 @@ public class InstanceInfo {
 
         DescribeInstancesResult instanceResult = instanceClient.describeInstances(request.withFilters(filterCol));
         
-        //System.out.println(instanceResult.toString());
+        System.out.println(instanceResult.toString());
         List<Reservation> reservations = instanceResult.getReservations();
-        //System.out.println(reservations.toString());
+        System.out.println(reservations.toString());
         return reservations;
     }
     
-    
-
-
     public InstanceInfo(String profileName, String region, String accountId) {
 
         this.profileName = profileName;
