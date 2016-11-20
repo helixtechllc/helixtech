@@ -2,7 +2,6 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.helixtech</groupId>
   <artifactId>helixtech-aws-aws-rds-snapshot</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
   <name>HelixTech RDS snapshots</name>
   <dependencies>
 		<dependency>
