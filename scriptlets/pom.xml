@@ -4,11 +4,7 @@
   <artifactId>helixtech-aws-aws-rds-snapshot</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>HelixTech RDS snapshots</name>
-<<<<<<< HEAD
-	<dependencies>
-=======
   <dependencies>
->>>>>>> b69fd8162e3f3b1b43601acb3d4b2f23837f26b3
 		<dependency>
 			<groupId>com.amazonaws</groupId>
 			<artifactId>aws-java-sdk</artifactId>
@@ -36,8 +32,4 @@
 			</plugin>
 		</plugins>
 	</build>
-<<<<<<< HEAD
 </project>
-=======
-</project>
->>>>>>> b69fd8162e3f3b1b43601acb3d4b2f23837f26b3
