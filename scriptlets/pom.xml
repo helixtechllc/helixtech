@@ -1,10 +1,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.helixtech</groupId>
-  <artifactId>helix-aws-aws-rds-snapshot</artifactId>
+  <artifactId>helixtech-aws-aws-rds-snapshot</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>HelixTech RDS snapshots</name>
+<<<<<<< HEAD
 	<dependencies>
+=======
+  <dependencies>
+>>>>>>> b69fd8162e3f3b1b43601acb3d4b2f23837f26b3
 		<dependency>
 			<groupId>com.amazonaws</groupId>
 			<artifactId>aws-java-sdk</artifactId>
@@ -32,4 +36,8 @@
 			</plugin>
 		</plugins>
 	</build>
+<<<<<<< HEAD
 </project>
+=======
+</project>
+>>>>>>> b69fd8162e3f3b1b43601acb3d4b2f23837f26b3
