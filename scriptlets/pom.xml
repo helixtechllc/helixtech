@@ -3,6 +3,7 @@
   <groupId>com.helixtech</groupId>
   <artifactId>helixtech-aws-aws-rds-snapshot</artifactId>
   <name>HelixTech RDS snapshots</name>
+  <name>HelixTech RDS snapshots</name>
   <dependencies>
 		<dependency>
 			<groupId>com.amazonaws</groupId>
